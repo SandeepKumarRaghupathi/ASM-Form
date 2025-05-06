@@ -3,10 +3,29 @@ import streamlit as st
 st.title("Samples")
 
 col1, col2 = st.columns(2, gap="small", vertical_alignment="center")
+col3, col4 = st.columns(2, gap="small", vertical_alignment="center")
+col5, col6 = st.columns(2, gap="small", vertical_alignment="center")
+
 with col1:
-    st.image("./assests/Lorryplant1.png",width=230)
+    st.write("Shed")
+    st.image("./assests/Lorryplant1.png",width=400)
 
 with col2:
-    st.image("./assests/Lorryplant2.png",width=230)
+    st.write("Chips 20 MM")
+    st.image("./assests/Chips 20 MM.png",width=400)
 
+with col3:
+    st.write("Chips 40 MM")
+    st.image("./assests/Chips 40 MM.png",width=400)
 
+with col4:
+    st.write("Gravel")
+    st.image("./assests/Gravel.png",width=400)
+
+with col5:
+    st.write("Offloading Material")
+    st.image("./assests/Load_1.png", width=400)
+
+with col6:
+    st.write("Offloading Material")
+    st.image("./assests/Load_2.png", width=400)
